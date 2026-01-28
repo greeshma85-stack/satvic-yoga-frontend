@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+   <section class="login-section">
+    <div class="login-container" id="loginContainer">
+      <img src="https://webnew.satvicmovement.org/images/about/hero.webp" alt="Satvic Movement" class="poster-image">
+
+      <div class="content">
+        <div class="logo">
+              <h5 style="margin-top:5px;">🌿 Sativ Movement</h5>
+        </div>
+
+        <p class="description">
+          is a community-driven health revolution to help you reach the peak of your physical, mental, and spiritual well-being
+        </p>
+
+        <p class="login-text">Login / Signup</p>
+
+        <div class="input-box">
+          <select class="country-code" id="countryCode">
+            <option value="+91">🇮🇳 +91 (India)</option>
+            <option value="+1">🇺🇸 +1 (USA)</option>
+            <option value="+44">🇬🇧 +44 (UK)</option>
+            <option value="+61">🇦🇺 +61 (Australia)</option>
+            <option value="+971">🇦🇪 +971 (UAE)</option>
+          </select>
+          <input type="tel" id="phoneNumber" placeholder="Enter your mobile number">
+        </div>
+
+        <p class="forgot-text">
+          Forgot registered mobile number? <a href="https://api.whatsapp.com/send?phone=9021879381&text=I%20need%20assistance%20with%20logging%20in" target="_blank">Click here</a>
+        </p>
+
+        <button class="continue-btn" id="continueBtn">Continue →</button>
+      </div>
+    </div>
+
+
+
+    <div class="otp-container" id="otpContainer">
+    <img src="https://webnew.satvicmovement.org/images/about/hero.webp" alt="Satvic Movement" class="poster-image">
+    <h3>Enter OTP</h3>
+    <p id="otpMessage"></p>
+
+    <div class="otp-inputs">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+    </div>
+
+    <p>Didn’t receive a code? <span class="resend">Resend Code</span></p>
+
+    <button class="continue-btn">Continue →</button>
+  </div>
+
+
+  </section>
+
+
+
+
+
+
+
+
+<script src="login.js"></script>
+</body>
+</html>
